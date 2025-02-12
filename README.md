@@ -9,7 +9,7 @@
 
 Python Overview
 
-1. [Basics and Introduction](Basics and Introduction.md)
+1. [Introduction](Basics%20and%20Introduction/Introduction.md)
 2. WIP
 
 
