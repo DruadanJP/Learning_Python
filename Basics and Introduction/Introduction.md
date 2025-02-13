@@ -14,10 +14,6 @@ Python Overview
     5. [Data Structures: Sequences (Strings, Lists, Tuples)](#data-structures-sequences)
     6. [List Comprehension](#list-comprehension)
     7. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-    8. [Division - Classic, Floor, and True](#division---classic-floor-and-true)
-    9. [Numeric Types](#numeric-types)
-    10. [Bitwise Operations](#bitwise-operations)
-    11. [Precision Handling with Decimals](#precision-handling-with-decimals)
 
 </details>
 
@@ -115,55 +111,4 @@ print(squares)  # [0, 1, 4, 9, 16]
 
 ## Object-Oriented Programming (OOP)
 Everything in Python is an **object**.
-
-## [Division - Classic, Floor, and True](Division%20-%20Classic%2C%20Floor%2C%20and%20True.py)
-Python provides different types of division:
-- **True Division (`/`)**: Always returns a float, even for integers.
-- **Floor Division (`//`)**: Truncates the result to the nearest whole number.
-
-### Example:
-```python
-print(10 / 3)   # Output: 3.333...
-print(10 // 3)  # Output: 3
-```
-
-## [Numeric Types](Numeric%20Types.py)
-Python supports different numeric types:
-- **Integers** (`int`)
-- **Floating-Point Numbers** (`float`)
-- **Complex Numbers** (`complex`)
-
-### [Bitwise Operations](Bitwise%20Operations.py)
-Bitwise operators manipulate bits directly:
-```python
-x = 8  # 1000 in binary
-print(x >> 1)  # Right shift: 4 (0100)
-print(x << 1)  # Left shift: 16 (10000)
-```
-
-## Expressions and Operators
-Python allows mathematical operations:
-```python
-# Square root calculations
-import math
-print(math.sqrt(144))   # Using math module
-print(144 ** 0.5)      # Using exponentiation
-print(pow(144, 0.5))   # Using built-in function
-```
-
-## [Precision Handling with Decimals](Precision%20Handling%20with%20Decimals.py)
-Python’s `decimal` module provides precise calculations:
-```python
-from decimal import Decimal
-result = Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3')
-print(result)  # Decimal('0.0')
-```
-
-### Setting Global Precision
-```python
-import decimal
-decimal.getcontext().prec = 4  # Set precision to 4 decimal places
-print(decimal.Decimal(1) / decimal.Decimal(7))  # Decimal('0.1429')
-```
-
 

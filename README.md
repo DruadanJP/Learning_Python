@@ -10,7 +10,7 @@
 Python Overview
 
 1. [Introduction](Basics%20and%20Introduction/Introduction.md)
-2. WIP
+2. [Numeric Types](Numeric%20Types/Numeric%20Types.md)
 
 
 ## References
